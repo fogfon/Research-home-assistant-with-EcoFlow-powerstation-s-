@@ -8,7 +8,8 @@ This will be an ongoing report.<br>
 ##### Results with focus on Delta Max and AC usage
 - Efficiency is up to 90% with loads ~2KWh, e.g. Water Heater
 - Efficiency is ~50% with loads ~ 50Wh, e.g. low energy PC and low energy Display
-- Efficiency is down to 20% with loads ~15Wh, e.g. fridge
+- Efficiency is down to 20% with loads ~15Wh, e.g. fridge <br>
+
 Self measurement of unit is very inexact (inaccurate). <br>
 Fan is noisy. <br>
 ##### Security, privacy and control
