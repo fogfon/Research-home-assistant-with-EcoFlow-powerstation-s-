@@ -1,4 +1,4 @@
-# Research-home-assistant-with-EcoFlow-powerstation-s-
+# Research home assistant with EcoFlow powerstation(s)
 ## Testing, monitoring and controling EcoFlow Delta Max in combination with EcoFlow River 600, Raspberry PI400, TP-Link WR1043ND Freifunk and 400W solar power
 ### Abstract
 Is it possible to run this setup stable, self-automated and self-regulated, off grid and without internet connection? <br>
