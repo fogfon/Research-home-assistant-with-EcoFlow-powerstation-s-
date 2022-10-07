@@ -51,16 +51,17 @@ We could not test yet, but we expect good efficiency
 The powerful inverter is very efficient on high loads. Medium loads from 400Wh to 800Wh we find good efficiency. On lower loads, it is probably better to use the River 600. Some tests will follow. If you have enough solar power, the efficiency is not the most important.<br>
 We found very inaccurate measuring of battery percentage, in Delta Max as in River 600.<br>
 On Delta Max we made often battery calibration, switched off device, press and hold usb button, then press and hold Power on, hold both for 10s and you will see a battery percentage jump. Sometimes down, sometimes up, in both directions up to 20%.
-We found this, because sometimes unit loads linear to 99% and then it stays there for minutes, 10 minutes and more.
-When discharging percentage is staying very long time on 1% or, and this is DANGEROUS, when running a computer, it jumps from 10% to 0% within seconds.<br>
+We found this, because sometimes unit loads linear to 99% and then it stays there for minutes, 10 minutes and more.<br>
+<a href="https://github.com/fogfon/Delta-Max-Tests-and-Graphs/blob/main/README.md#nearly-linear-ac-discharging-without-input-with-a-load-of-300w-until-battery-is-empty-after-that-linear-charging-like-expected" title="0.49%">When discharging percentage is staying very long time on 0.49%</a><br
+
 We thought about running the battery in between 20% and 80%, for lithium ion, we can expect more charge cycles, perhaps double, but, this means, every day one recalibration.<br>
 Fan is starting when charging >= ~80W solar power (~20V), the DC/DC converter gets really hot, perhaps this is better with Solarpanels with higher Voltage.
 When discharging Fan noise starts frequently >=~150W.<br>
 
 #### Tests with River 600
 1) Solarcharging to 100%, then Solarcharging and different load first AC and then ~100W DC until battery is empty.<br>
-Battery jumps on linear DC discharging from 27% to 1% in seconds and then switch off in seconds. <br>
-Details: <a href="https://github.com/fogfon/River-600-Tests-and-Graphs" title="River-600-Tests-and-Graphs">River 600 Tests and Graphs</a>
+<a href="https://github.com/fogfon/River-600-Tests-and-Graphs#solarcharging-to-100-then-solarcharging-and-different-load-first-ac-and-then-100w-dc-until-battery-is-empty" title="River-600-Tests-and-Graphs">Battery jumps on linear DC discharging from 27% to 0% in seconds and switch off.</a>
+
 
 ### Firmware/Hardware
 We got a replacement device from EcoFlow because of our findings and an audibly electrical crackling nearby AC relay. Unit arrived with 0.?.1, we had to update the firmware and we lost control. In latest firmware they closed local port what killed this project, well, perhaps it is only injured. <br>
