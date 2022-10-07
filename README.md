@@ -55,10 +55,15 @@ We found this, because sometimes unit loads linear to 99% and then it stays ther
 When discharging percentage is staying very long time on 1% or, and this is DANGEROUS, when running a computer, it jumps from 10% to 0% within seconds.<br>
 We thought about running the battery in between 20% and 80%, for lithium ion, we can expect more charge cycles, perhaps double, but, this means, every day one recalibration.<br>
 Fan is starting when charging >= ~80W solar power (~20V), the DC/DC converter gets really hot, perhaps this is better with Solarpanels with higher Voltage.
-When discharging Fan noise starts frequently >=~150W.
+When discharging Fan noise starts frequently >=~150W.<br>
+
+#### Tests with River 600
+1) Solarcharging to 100%, then Solarcharging and different load first AC and then ~100W DC until battery is empty.<br>
+Battery jumps on linear DC discharging from 27% to 1% in seconds and then switch off in seconds.
 
 ### Firmware/Hardware
-We got a replacement device from EcoFlow because of our findings and an audibly electrical crackling nearby AC relay.
-We can not test this like our old device, because of new firmware, unit arrived with 0.?.1, we had to update the firmware and we lost our statistics tool. After some charging and discharging in between 20% and 80%, we have done battery recalibration, a jump of 13%, from 33% to 20%. So, it looks like, this is not solved in latest firmware. Electrical crackling nearby AC relay still is audible, so it seems to be normal. <br>
-In latest firmware they closed local port what killed this project, well, perhaps it is only injured. <br>
-We must warn, do NOT buy EcoFlow Delta Max, when you want to control and monitor and automate it with home assistant or any other smart home solution.<br>
+We got a replacement device from EcoFlow because of our findings and an audibly electrical crackling nearby AC relay. Unit arrived with 0.?.1, we had to update the firmware and we lost control. In latest firmware they closed local port what killed this project, well, perhaps it is only injured. <br>
+They might have closed the port because it was not secure. We have not researched this, perhaps everybody in local network could reach and control the device.
+It would have been better to secure the port instead of closing it or let the user decide, we would wish us an option in the app. <br>
+When you want to control and automate the Delta Max with home assistant or any other smart home solution, THIS IS NOT POSSIBLE ANYMORE!!!<br> 
+Because of this, we can not monitor our testing at the moment. After some charging and discharging in between 20% and 80%, we have done battery recalibration, a jump of 13%, from 33% to 20%. After some loads and charging and recalibration, a jump from 40% to 61%. So, it looks like, this is not solved in latest firmware. Electrical crackling nearby AC relay still is audible, so it seems to be normal. <br>
