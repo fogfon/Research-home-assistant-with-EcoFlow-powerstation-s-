@@ -9,11 +9,11 @@ This will be an ongoing report.<br>
 - Efficiency is up to 90% with loads ~2KWh, e.g. Water Heater
 - Efficiency is ~50% with loads ~ 50Wh, e.g. low energy PC and low energy Display
 - Efficiency is down to 20% with loads ~15Wh, e.g. fridge <br>
-
+On lower loads, it is probably better to use the River 600.
 Self measurement of unit is very inexact (inaccurate). <br>
 Fan is noisy. <br>
 ##### Security, privacy and control
-EcoFlow App uses Oauth for mqtt connection, this looks very secure. <br>
+EcoFlow App uses Oauth for mqtt connection, this looks very secure and has a lot of features. <br>
 EcoFlow Servers are in China, anonymized connections via Tor are impossible, different VPN work, other not. <br>
 Automation does not work without internet connection. <br>
 EcoFlow offers an online api, you can ask support for keys, you will get 4 values with the curl command. <br>
@@ -37,23 +37,25 @@ AC connection gives us the possibility to wake up and control the Delta Max, for
 #### Use cases and Tests with Delta Max
 1) 1.8KW 50l water heater, total 1.8KWh<br>
 High efficiency ~ 87%, but we think, this stresses the battery
-2) Washing Machine up to 2.2 KW, total run 0.35 Kwh<br>
-Good efficiency ~ 80%, only some minutes stress for battery
-3) Workstation, monitor, router, between 80W and 400W very dynamic<br>
+2) Workstation, calculating with fairly linear 300Wh over 6 hours.
+Very good efficiency ~ 85%
+3)Washing Machine up to 2.2 KW, total run 0.35 Kwh<br>
+We have tested, but every time with solar input and no data at the moment...
+4)Workstation, monitor, router, between 80W and 400W very dynamic<br>
 Fair efficiency ~ 60% - 80%
-4) Refrigerator up to ~800 W for 1 or 2 seconds, 50W for 12 minutes, but only 12 Wh per hour<br>
+5) Refrigerator up to ~800 W for 1 or 2 seconds, 50W for 12 minutes, but only 12 Wh per hour<br>
 Poor efficiency, DC Standby needs up to 50Wh
-5) Computer 50W, continuous load<br>
+6) Computer 50W, continuous load<br>
 Bad efficiency ~ 50%
-6) Air Condition 800W<br>
+7) Air Condition 800W<br>
 We could not test yet, but we expect good efficiency
 
-The powerful inverter is very efficient on high loads. Medium loads from 400Wh to 800Wh we find good efficiency. On lower loads, it is probably better to use the River 600. Some tests will follow. If you have enough solar power, the efficiency is not the most important.<br>
-We found very inaccurate measuring of battery percentage, in Delta Max as in River 600.<br>
-On Delta Max we made often battery calibration, switched off device, press and hold usb button, then press and hold Power on, hold both for 10s and you will see a battery percentage jump. Sometimes down, sometimes up, in both directions up to 20%.
-We found this, because sometimes unit loads linear to 99% and then it stays there for minutes, 10 minutes and more.<br>
-<a href="https://github.com/fogfon/Delta-Max-Tests-and-Graphs/blob/main/README.md#nearly-linear-ac-discharging-without-input-with-a-load-of-300w-until-battery-is-empty-after-that-linear-charging-like-expected" title="0.49%">When discharging percentage is staying very long time on 0.49%</a><br
-
+The powerful inverter is very efficient on high loads. Medium loads ~300Wh we find very good efficiency.<br>
+If you have enough solar power, the efficiency is not the most important.<br>
+#### Inaccurate measuring of battery percentage:<br>
+1) <a href="https://github.com/fogfon/Delta-Max-Tests-and-Graphs/blob/main/README.md#nearly-linear-ac-discharging-without-input-with-a-load-of-300w-until-battery-is-empty-after-that-linear-charging-like-expected" title="0.49%">When discharging Delta Max percentage is staying very long time on 0.49%</a><br>
+2) <a href="https://github.com/fogfon/Delta-Max-Tests-and-Graphs/blob/main/README.md#linear-charging-and-discharging-then-solar-charging-and-at-the-end-battery-recalibration" title="Battery Jumps">At battery recalibration, we found battery percentage jumps up to 30% up or down.</a><br>
+#### Recalibration: Switch off device, press and hold usb button, then press and hold Power on, hold both for ~10s and you will see a jump... 
 We thought about running the battery in between 20% and 80%, for lithium ion, we can expect more charge cycles, perhaps double, but, this means, every day one recalibration.<br>
 Fan is starting when charging >= ~80W solar power (~20V), the DC/DC converter gets really hot, perhaps this is better with Solarpanels with higher Voltage.
 When discharging Fan noise starts frequently >=~150W.<br>
