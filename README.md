@@ -59,7 +59,8 @@ When discharging Fan noise starts frequently >=~150W.<br>
 
 #### Tests with River 600
 1) Solarcharging to 100%, then Solarcharging and different load first AC and then ~100W DC until battery is empty.<br>
-Battery jumps on linear DC discharging from 27% to 1% in seconds and then switch off in seconds.
+Battery jumps on linear DC discharging from 27% to 1% in seconds and then switch off in seconds. <br>
+Details: <a href="https://github.com/fogfon/River-600-Tests-and-Graphs" title="River-600-Tests-and-Graphs">River 600 Tests and Graphs</a>
 
 ### Firmware/Hardware
 We got a replacement device from EcoFlow because of our findings and an audibly electrical crackling nearby AC relay. Unit arrived with 0.?.1, we had to update the firmware and we lost control. In latest firmware they closed local port what killed this project, well, perhaps it is only injured. <br>
