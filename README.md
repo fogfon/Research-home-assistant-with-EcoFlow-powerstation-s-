@@ -9,7 +9,8 @@ This will be an ongoing report.<br>
 - Efficiency is up to 90% with loads ~2KWh, e.g. Water Heater
 - Efficiency is ~50% with loads ~ 50Wh, e.g. low energy PC and low energy Display
 - Efficiency is down to 20% with loads ~15Wh, e.g. fridge <br>
-On lower loads, it is probably better to use the River 600.
+
+On lower loads, it is probably better to use the River 600. <br>
 Self measurement of unit is very inexact (inaccurate). <br>
 Fan is noisy. <br>
 ##### Security, privacy and control
@@ -37,11 +38,11 @@ AC connection gives us the possibility to wake up and control the Delta Max, for
 #### Use cases and Tests with Delta Max
 1) 1.8KW 50l water heater, total 1.8KWh<br>
 High efficiency ~ 87%, but we think, this stresses the battery
-2) Workstation, calculating with fairly linear 300Wh over 6 hours.
+2) Workstation, calculating with fairly linear 300Wh over 6 hours
 Very good efficiency ~ 85%
-3)Washing Machine up to 2.2 KW, total run 0.35 Kwh<br>
-We have tested, but every time with solar input and no data at the moment...
-4)Workstation, monitor, router, between 80W and 400W very dynamic<br>
+3) Washing Machine up to 2.2 KW, total run 0.35 Kwh<br>
+We have tested, but with solar input, so efficiency we do not know atm 
+4) Workstation, monitor, router, between 80W and 400W very dynamic<br>
 Fair efficiency ~ 60% - 80%
 5) Refrigerator up to ~800 W for 1 or 2 seconds, 50W for 12 minutes, but only 12 Wh per hour<br>
 Poor efficiency, DC Standby needs up to 50Wh
