@@ -7,6 +7,7 @@ We test efficiency and usability of different use cases e.g. water heating, air 
 This will be an ongoing report.<br>
 ##### Results with focus on Delta Max and AC usage
 - Efficiency is up to 90% with loads ~2KWh, e.g. Water Heater
+- Efficiency is up to 85% with loads ~300W, e.g. Workstation
 - Efficiency is ~50% with loads ~ 50Wh, e.g. low energy PC and low energy Display
 - Efficiency is down to 20% with loads ~15Wh, e.g. fridge <br>
 
@@ -38,7 +39,7 @@ AC connection gives us the possibility to wake up and control the Delta Max, for
 #### Use cases and Tests with Delta Max
 1) 1.8KW 50l water heater, total 1.8KWh<br>
 High efficiency ~ 87%, but we think, this stresses the battery
-2) Workstation, calculating with fairly linear 300Wh over 6 hours
+2) Workstation, calculating with fairly linear 300Wh over 6 hours<br>
 Very good efficiency ~ 85%
 3) Washing Machine up to 2.2 KW, total run 0.35 Kwh<br>
 We have tested, but with solar input, so efficiency we do not know atm 
