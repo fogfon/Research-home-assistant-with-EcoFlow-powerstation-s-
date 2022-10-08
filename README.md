@@ -42,7 +42,7 @@ High efficiency ~ 87%, but we think, this stresses the battery
 2) Workstation, calculating with fairly linear 300Wh over 6 hours<br>
 Very good efficiency ~ 85%
 3) Washing Machine up to 2.2 KW, total run 0.35 Kwh<br>
-We have tested, but with solar input, so efficiency we do not know atm 
+We have tested with solar input, battery information useless
 4) Workstation, monitor, router, between 80W and 400W very dynamic<br>
 Fair efficiency ~ 60% - 80%
 5) Refrigerator up to ~800 W for 1 or 2 seconds, 50W for 12 minutes, but only 12 Wh per hour<br>
