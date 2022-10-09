@@ -1,9 +1,12 @@
 # Research home assistant with EcoFlow powerstation(s)
 ## Testing, monitoring and controlling EcoFlow Delta Max in combination with EcoFlow River 600, Raspberry PI400, TP-Link WR1043ND Freifunk and 400W solar power
 ### Abstract
-Is it possible to run this setup stable, self-automated and self-regulated, off grid and without internet connection? <br>
+We investigate to find a stable, self-automated and self-regulated setup. <br>
+Setup should work off grid and without internet connection. <br>
 In addition we have a close look at data security and privacy. <br>
-We test efficiency and usability of different use cases e.g. water heating, air condition, cooling, office setup. 
+We test efficiency on different loads e.g. water heating, air condition, cooling, office setup... <br>
+We test usabilty and automation for different places e.g. home, office, holiday home... <br>
+
 This will be an ongoing report.<br>
 ##### Results with focus on Delta Max and AC usage
 - Efficiency is up to 90% with loads ~2KWh, e.g. Water Heater
