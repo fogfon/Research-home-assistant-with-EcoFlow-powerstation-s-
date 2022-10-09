@@ -1,5 +1,5 @@
 # Research home assistant with EcoFlow powerstation(s)
-## Testing, monitoring and controling EcoFlow Delta Max in combination with EcoFlow River 600, Raspberry PI400, TP-Link WR1043ND Freifunk and 400W solar power
+## Testing, monitoring and controlling EcoFlow Delta Max in combination with EcoFlow River 600, Raspberry PI400, TP-Link WR1043ND Freifunk and 400W solar power
 ### Abstract
 Is it possible to run this setup stable, self-automated and self-regulated, off grid and without internet connection? <br>
 In addition we have a close look at data security and privacy. <br>
@@ -19,21 +19,25 @@ EcoFlow App uses Oauth for mqtt connection, this looks very secure and has a lot
 EcoFlow Servers are in China, anonymized connections via Tor are impossible, different VPN work, other not. <br>
 Automation does not work without internet connection. <br>
 EcoFlow offers an online api, you can ask support for keys, you will get 4 values with the curl command. <br>
-Controlling via app is possible without internet connection, but Delta Max hotspot is without any security/password, anyone nearby with EcoFlow app might take over the device Hotspot is not permanent. <br>
+Controlling via app is possible without internet connection, but Delta Max hotspot is without any security/password, anyone nearby with EcoFlow app might take over the device. <br>
+Hotspot is not permanent. <br>
 ##### Automation does not work at all with latest firmware <br>
-
 ### Setup
-River 600 is connected to 100W Solarpanel or Delta Max DC output.
-Delta Max is connected to 300W or 400W Solarpower.
-Raspberry and Router( 12V Router via USB-PD Trigger Modul) are connected to River 600 usb ports.
+Raspberry and Router (12V Router via USB-PD Trigger Modul) are connected to River 600 usb ports. <br>
 River 600 AC output is connected to Delta Max AC input.
-Car charger cable is connected from Delta Max output to River 600 input.
-
+1) River 600 is connected to 100W solar power.<br>
+Delta Max is connected to 300W solar power.<br>
+2) River 600 is connected to Delta Max DC output. <br>
+Delta Max is connected to 400W solar panel.<br>
 ### Idea
-River 600 will be waked up from sun and charged, usb ports on River 600 are always on when unit is on, so Raspberry and Router are starting automatically with sun rising-> Home assistant collects data, automation is ready.
-Or River 600 runs continuously and will be charged by Delta Max via DC.
-Delta Max  will be waked up from sun and charged.
-AC connection gives us the possibility to wake up and control the Delta Max, for example when River 600 Battery is low.
+River 600 usb ports are always on when unit is on.<br>
+River 600 AC output is our switch to wake up Delta Max when Delta is needed. <br>
+1) River 600 will be waked up from sun and charged. <br>
+Raspberry and Router are starting automatically with sun rising-> Home assistant collects data, automation is ready. <br>
+Delta Max will be waked up from sun and charged.<br>
+2) River 600 and home assistant are running continuously.<br>
+Delta Max will be waked up from sun and charged.<br>
+River 600 will be charged by Delta Max via DC controlled by home assistant.<br>
 
 ### Testing and Findings
 #### Use cases and Tests with Delta Max
