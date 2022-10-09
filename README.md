@@ -57,7 +57,7 @@ If you have enough solar power, the efficiency is not the most important.<br>
 #### Inaccurate measuring of battery percentage:<br>
 1) <a href="https://github.com/fogfon/Delta-Max-Tests-and-Graphs/blob/main/README.md#nearly-linear-ac-discharging-without-input-with-a-load-of-300w-until-battery-is-empty-after-that-linear-charging-like-expected" title="0.49%">When discharging Delta Max percentage is staying very long time on 0.49%</a><br>
 2) <a href="https://github.com/fogfon/Delta-Max-Tests-and-Graphs/blob/main/README.md#linear-charging-and-discharging-then-solar-charging-and-at-the-end-battery-recalibration" title="Battery Jumps">At battery recalibration, we found battery percentage jumps up to 30% up or down.</a><br>
-#### Recalibration: Switch off device, press and hold usb button, then press and hold Power on, hold both for ~10s and you will see a jump... 
+#### Recalibration: Switch off device, then press and hold Power On for ~10s and you will see a jump in battery percentage... 
 We thought about running the battery in between 20% and 80%, for lithium ion, we can expect more charge cycles, perhaps double, but, this means, every day one recalibration.<br>
 Fan is starting when charging >= ~80W solar power (~20V), the DC/DC converter gets really hot, perhaps this is better with Solarpanels with higher Voltage.
 When discharging Fan noise starts frequently >=~150W.<br>
