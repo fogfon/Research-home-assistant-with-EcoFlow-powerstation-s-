@@ -1,0 +1,431 @@
+$ adb logcat | grep 3777 # proc 3777:com.ecoflow/u0a162
+
+10-23 08:25:37.894  1638  1706 I ActivityManager: Start proc 3777:com.ecoflow/u0a162 for broadcast {com.ecoflow/com.hyphenate.chat.EMMonitorReceiver}
+10-23 08:25:39.416  1638  1705 W BroadcastQueue: Permission Denial: broadcasting Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4200010 (has extras) } from null (pid=-1, uid=-1) requires com.tence
+nt.bugly.BuglyBroadcastReceiver.permission due to registered receiver BroadcastFilter{3a7be26 10162/u0 ReceiverList{6a88d81 3777 com.ecoflow/10162/u0 remote:715e568}}
+10-23 08:25:39.487  1638  2665 W ActivityManager: Background start not allowed: service Intent { cmp=com.ecoflow/.iot.service.JPushService } to com.ecoflow/.iot.service.JPushService from pid=3777 uid=10162
+ pkg=com.ecoflow startFg?=false
+10-23 08:25:39.656  1638  2665 W ActivityManager: Background start not allowed: service Intent { cmp=com.ecoflow/com.hyphenate.chat.EMChatService } to com.ecoflow/com.hyphenate.chat.EMChatService from pid=
+3777 uid=10162 pkg=com.ecoflow startFg?=false
+10-23 08:26:05.633   443   840 D vold    : Found matching PID 3777
+10-23 08:26:05.718   443   460 D vold    : Found matching PID 3777
+10-23 08:26:05.807   443   460 D vold    : Found matching PID 3777
+10-23 08:26:05.877   443   460 D vold    : Found matching PID 3777
+10-23 08:26:05.955   443   460 D vold    : Found matching PID 3777
+10-23 08:26:06.026   443   460 D vold    : Found matching PID 3777
+10-23 10:42:41.706  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:42:41.713  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:42:42.211  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 256 lines
+10-23 10:42:51.462  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:42:52.053  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 206 lines
+10-23 10:42:59.245  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:42:59.252  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:42:59.784  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 474 lines
+10-23 10:43:16.753  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:43:16.760  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:43:18.600  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 420 lines
+10-23 10:43:32.899  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:43:32.906  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 1 line
+10-23 10:43:33.326  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 489 lines
+10-23 10:43:50.238  3777  7136 I chatty  : uid=10162(com.ecoflow) expire 2 lines
+10-23 10:43:51.096  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:43:51.143  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:43:51.560  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 466 lines
+10-23 10:44:09.280  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:44:09.324  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:44:10.496  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 499 lines
+10-23 10:44:27.628  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:44:27.639  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:44:29.529  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 427 lines
+10-23 10:44:47.244  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:44:47.251  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:44:47.670  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 326 lines
+10-23 10:45:00.292  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 148 lines
+10-23 10:45:04.798  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:45:04.806  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 1 line
+10-23 10:45:05.322  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 490 lines
+10-23 10:45:22.294  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:45:22.302  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:45:23.496  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 479 lines
+10-23 10:45:40.491  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:45:40.544  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:45:42.366  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 433 lines
+10-23 10:45:58.285  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:45:58.295  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:45:58.498  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 484 lines
+10-23 10:46:15.575  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:46:15.620  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 1 line
+10-23 10:46:16.742  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 481 lines
+10-23 10:46:33.061  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:46:33.068  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:46:34.964  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 421 lines
+10-23 10:46:49.959  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:46:50.005  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:46:51.112  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 436 lines
+10-23 10:47:06.793  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:47:06.799  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:47:08.616  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 520 lines
+10-23 10:47:27.076  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:47:27.126  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:47:28.404  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 452 lines
+10-23 10:47:45.375  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:47:45.382  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 1 line
+10-23 10:47:45.942  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 388 lines
+10-23 10:48:00.544  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 98 lines
+10-23 10:48:02.166  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:48:02.209  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:48:04.125  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 209 lines
+10-23 10:48:11.819  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:48:12.592  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 212 lines
+10-23 10:48:19.766  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:48:19.773  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:48:20.995  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 367 lines
+10-23 10:48:35.248  3777  7202 I chatty  : uid=10162(com.ecoflow) expire 2 lines
+10-23 10:48:35.709  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 108 lines
+10-23 10:48:37.919  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:48:37.963  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:48:39.915  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 439 lines
+10-23 10:48:54.817  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:48:54.827  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 1 line
+10-23 10:48:56.111  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 457 lines
+10-23 10:49:11.632  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:49:11.638  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:49:13.582  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 457 lines
+10-23 10:49:29.227  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:49:29.234  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:49:31.127  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 409 lines
+10-23 10:49:46.729  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:49:46.736  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:49:47.222  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 363 lines
+10-23 10:50:00.463  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 149 lines
+10-23 10:50:04.227  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:50:04.234  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 1 line
+10-23 10:50:06.149  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 460 lines
+10-23 10:50:21.688  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:50:21.735  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:50:23.621  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 407 lines
+10-23 10:50:39.279  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:50:39.290  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:50:39.738  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 334 lines
+10-23 10:50:52.368  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 172 lines
+10-23 10:50:57.546  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:50:57.553  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:50:58.760  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 447 lines
+10-23 10:51:15.687  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:51:15.735  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 1 line
+10-23 10:51:16.282  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 457 lines
+10-23 10:51:33.211  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:51:33.259  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:51:33.731  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 463 lines
+10-23 10:51:50.173  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:51:50.182  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:51:50.652  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 466 lines
+10-23 10:52:06.878  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:52:06.924  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:52:07.413  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 520 lines
+10-23 10:52:25.126  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:52:25.174  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 1 line
+10-23 10:52:27.163  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 288 lines
+10-23 10:52:38.347  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 134 lines
+10-23 10:52:42.768  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:52:42.778  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:52:43.244  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 441 lines
+10-23 10:53:00.012  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 31 lines
+10-23 10:53:00.218  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:53:00.258  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:53:00.804  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 494 lines
+10-23 10:53:17.742  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:53:17.787  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:53:19.702  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 49 lines
+10-23 10:53:20.348  3777  7280 I chatty  : uid=10162(com.ecoflow) expire 2 lines
+10-23 10:53:21.761  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 423 lines
+10-23 10:53:34.617  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:53:34.627  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 1 line
+10-23 10:53:37.256  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 418 lines
+10-23 10:53:51.504  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:53:51.511  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:53:53.323  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 427 lines
+10-23 10:54:08.944  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:54:08.991  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:54:10.146  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 488 lines
+10-23 10:54:27.220  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:54:27.265  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:54:28.551  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 425 lines
+10-23 10:54:43.964  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:54:44.011  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 1 line
+10-23 10:54:44.636  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 397 lines
+10-23 10:55:00.025  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 97 lines
+10-23 10:55:02.936  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:55:02.981  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:55:03.552  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 494 lines
+10-23 10:55:25.415  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:55:25.425  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:55:27.299  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 354 lines
+10-23 10:55:39.983  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 118 lines
+10-23 10:55:42.201  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:55:42.244  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:55:44.191  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 419 lines
+10-23 10:55:59.824  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:55:59.833  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:56:00.243  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 468 lines
+10-23 10:56:16.643  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:56:16.651  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:56:18.601  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 413 lines
+10-23 10:56:34.113  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:56:34.167  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 1 line
+10-23 10:56:34.617  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 463 lines
+10-23 10:56:51.727  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:56:51.737  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:56:53.663  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 403 lines
+10-23 10:57:08.554  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 10:57:08.561  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 10:57:09.062  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 158 lines
+10-23 10:57:15.293  3777  3777 E EcoFlowNative: parse finish,3
+10-23 10:57:15.294  3777  3777 E EcoFlowNative: leave_length,120
+10-23 10:57:15.297  3777  3777 E EcoFlowNative: parse finish,1
+10-23 10:57:15.303  3777  3777 D DeviceInputFragment:  
+10-23 10:57:15.303  3777  3777 D DeviceInputFragment: ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+10-23 10:57:15.303  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 10:57:15.303  3777  3777 D DeviceInputFragment: ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+10-23 10:57:15.303  3777  3777 D DeviceInputFragment: │ DeviceInputFragment updateTcp 数据更新
+10-23 10:57:15.303  3777  3777 D DeviceInputFragment: └────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+10-23 10:57:15.308  3777  3777 D BatteryBean:  
+10-23 10:57:15.308  3777  3777 D BatteryBean: ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+10-23 10:57:15.308  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 10:57:15.308  3777  3777 D BatteryBean: ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+10-23 10:57:15.308  3777  3777 D BatteryBean: │ setOffline:false
+10-23 10:57:15.308  3777  3777 D BatteryBean: └────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+10-23 10:57:15.355  3777  3777 E EcoFlowNative: parse next,87,0
+10-23 10:57:15.355  3777  3777 E EcoFlowNative: parse finish,3
+10-23 10:57:15.355  3777  3777 E EcoFlowNative: leave_length,33
+10-23 10:57:15.357  3777  3777 D DeviceInputFragment:  
+10-23 10:57:15.357  3777  3777 D DeviceInputFragment: ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+10-23 10:57:15.357  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 10:57:15.357  3777  3777 D DeviceInputFragment: ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+10-23 10:57:15.357  3777  3777 D DeviceInputFragment: │ DeviceInputFragment updateTcp 数据更新
+10-23 10:57:15.357  3777  3777 D DeviceInputFragment: └────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+10-23 10:57:15.359  3777  3777 D BatteryBean:  
+10-23 10:57:15.359  3777  3777 D BatteryBean: ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+10-23 10:57:15.359  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 10:57:15.359  3777  3777 D BatteryBean: ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+10-23 10:57:15.359  3777  3777 D BatteryBean: │ setOffline:false
+10-23 10:57:15.359  3777  3777 D BatteryBean: └────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+10-23 10:57:15.390  3777  3777 E EcoFlowNative: parse next,84,0
+10-23 10:57:15.390  3777  3777 E EcoFlowNative: parse next,106,1
+10-23 10:57:15.390  3777  3777 E EcoFlowNative: parse finish,1
+10-23 10:57:15.392  3777  3777 D DeviceInputFragment:  
+10-23 10:57:15.392  3777  3777 D DeviceInputFragment: ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+10-23 10:57:15.392  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 10:57:15.392  3777  3777 D DeviceInputFragment: ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+10-23 10:57:15.392  3777  3777 D DeviceInputFragment: │ DeviceInputFragment updateTcp 数据更新
+10-23 10:57:15.392  3777  3777 D DeviceInputFragment: └────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+10-23 10:57:15.393  3777  3777 I chatty  : uid=10162(com.ecoflow) identical 1 line
+10-23 10:57:15.395  3777  3777 D DeviceInputFragment:  
+10-23 10:57:15.395  3777  3777 D DeviceInputFragment: ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+10-23 10:57:15.395  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 10:57:15.395  3777  3777 D DeviceInputFragment: ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+10-23 10:57:15.395  3777  3777 D DeviceInputFragment: │ DeviceInputFragment updateTcp 数据更新
+10-23 10:57:15.395  3777  3777 D DeviceInputFragment: └────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Ongoing....
+
+
+# adb logcat | grep com.ecoflow
+
+10-23 08:25:22.803  1638  1638 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.ecoflow (protectionLevel=66 flags=0x28583e44)
+10-23 08:25:22.803  1638  1638 I PackageManager: Un-granting permission android.permission.WRITE_SETTINGS from package com.ecoflow (protectionLevel=1218 flags=0x28583e44)
+10-23 08:25:22.803  1638  1638 I PackageManager: Un-granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS from package com.ecoflow (protectionLevel=18 flags=0x28583e44)
+10-23 08:25:25.281  1638  1638 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.ecoflow (protectionLevel=66 flags=0x28d83e44)
+10-23 08:25:25.281  1638  1638 I PackageManager: Un-granting permission android.permission.WRITE_SETTINGS from package com.ecoflow (protectionLevel=1218 flags=0x28d83e44)
+10-23 08:25:25.281  1638  1638 I PackageManager: Un-granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS from package com.ecoflow (protectionLevel=18 flags=0x28d83e44)
+10-23 08:25:25.705  1638  1638 I PackageManager: Un-granting permission android.permission.REQUEST_INSTALL_PACKAGES from package com.ecoflow (protectionLevel=66 flags=0x28d83e44)
+10-23 08:25:25.706  1638  1638 I PackageManager: Un-granting permission android.permission.WRITE_SETTINGS from package com.ecoflow (protectionLevel=1218 flags=0x28d83e44)
+10-23 08:25:25.706  1638  1638 I PackageManager: Un-granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS from package com.ecoflow (protectionLevel=18 flags=0x28d83e44)
+10-23 08:25:37.894  1638  1706 I ActivityManager: Start proc 3777:com.ecoflow/u0a162 for broadcast {com.ecoflow/com.hyphenate.chat.EMMonitorReceiver}
+10-23 08:25:39.416  1638  1705 W BroadcastQueue: Permission Denial: broadcasting Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4200010 (has extras) } from null (pid=-1, uid=-1) requires com.tencent.bugly.BuglyBroadcastReceiver.permission due to registere
+d receiver BroadcastFilter{3a7be26 10162/u0 ReceiverList{6a88d81 3777 com.ecoflow/10162/u0 remote:715e568}}
+10-23 08:25:39.487  1638  2665 W ActivityManager: Background start not allowed: service Intent { cmp=com.ecoflow/.iot.service.JPushService } to com.ecoflow/.iot.service.JPushService from pid=3777 uid=10162 pkg=com.ecoflow startFg?=false
+10-23 08:25:39.512  1638  1706 I ActivityManager: Start proc 3898:com.ecoflow:pushcore/u0a162 for service {com.ecoflow/com.ecoflow.iot.service.JPushService}
+10-23 08:25:39.656  1638  2665 W ActivityManager: Background start not allowed: service Intent { cmp=com.ecoflow/com.hyphenate.chat.EMChatService } to com.ecoflow/com.hyphenate.chat.EMChatService from pid=3777 uid=10162 pkg=com.ecoflow startFg?=false
+10-23 08:25:40.345  1638  1705 W BroadcastQueue: Permission Denial: broadcasting Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4200010 (has extras) } from null (pid=-1, uid=-1) requires com.tencent.bugly.BuglyBroadcastReceiver.permission due to registere
+d receiver BroadcastFilter{7734ee8 10162/u0 ReceiverList{c0cc00b 3898 com.ecoflow:pushcore/10162/u0 remote:3bc83da}}
+10-23 08:26:03.136  1638  1671 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ecoflow/.iot.splash.SplashActivity bnds=[829,1270][988,1429]} from uid 10058
+10-23 08:26:05.255  1638  2665 I ActivityTaskManager: START u0 {cmp=com.ecoflow/.iot.main.MainActivity} from uid 10162
+10-23 08:26:07.498  1638  2653 I ActivityTaskManager: START u0 {cmp=com.ecoflow/.iot.device.detail.DeviceDetailActivity (has extras)} from uid 10162
+10-23 08:30:48.378  1638  2665 E WifiService: Permission violation - getConfiguredNetworks not allowed for uid=10162, packageName=com.ecoflow, reason=java.lang.SecurityException: Location mode is disabled for the device
+10-23 08:49:48.727  1638  1987 E WifiService: Permission violation - getConfiguredNetworks not allowed for uid=10162, packageName=com.ecoflow, reason=java.lang.SecurityException: Location mode is disabled for the device
+10-23 09:08:49.034  1638  1987 E WifiService: Permission violation - getConfiguredNetworks not allowed for uid=10162, packageName=com.ecoflow, reason=java.lang.SecurityException: Location mode is disabled for the device
+10-23 09:27:49.272  1638  1987 E WifiService: Permission violation - getConfiguredNetworks not allowed for uid=10162, packageName=com.ecoflow, reason=java.lang.SecurityException: Location mode is disabled for the device
+10-23 09:46:49.502  1638  2671 E WifiService: Permission violation - getConfiguredNetworks not allowed for uid=10162, packageName=com.ecoflow, reason=java.lang.SecurityException: Location mode is disabled for the device
+10-23 10:05:49.713  1638  1978 E WifiService: Permission violation - getConfiguredNetworks not allowed for uid=10162, packageName=com.ecoflow, reason=java.lang.SecurityException: Location mode is disabled for the device
+10-23 10:24:49.896  1638  2671 E WifiService: Permission violation - getConfiguredNetworks not allowed for uid=10162, packageName=com.ecoflow, reason=java.lang.SecurityException: Location mode is disabled for the device
+10-23 10:43:50.218  1638  2665 E WifiService: Permission violation - getConfiguredNetworks not allowed for uid=10162, packageName=com.ecoflow, reason=java.lang.SecurityException: Location mode is disabled for the device
+10-23 11:02:38.550  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 309 lines
+10-23 11:02:50.408  3898  3990 I chatty  : uid=10162(com.ecoflow) jg_tsk_thread expire 3 lines
+10-23 11:02:50.411  3898  6157 I chatty  : uid=10162 com.ecoflow:pushcore expire 1 line
+10-23 11:02:50.417  3777  7419 I chatty  : uid=10162(com.ecoflow) expire 2 lines
+10-23 11:02:50.422  1638  1979 E WifiService: Permission violation - getConfiguredNetworks not allowed for uid=10162, packageName=com.ecoflow, reason=java.lang.SecurityException: Location mode is disabled for the device
+10-23 11:02:50.496  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 40 lines
+10-23 11:02:50.786  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:02:50.795  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 11:02:51.922  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 139 lines
+10-23 11:02:56.557  3898  7423 I chatty  : uid=10162 com.ecoflow:pushcore expire 3 lines
+10-23 11:02:56.603  3898  6157 I chatty  : uid=10162 com.ecoflow:pushcore expire 2 lines
+10-23 11:02:56.618  3898  7424 I chatty  : uid=10162(com.ecoflow) jg_nr_pool_thre expire 2 lines
+10-23 11:02:56.805  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 305 lines
+10-23 11:03:08.008  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 25 lines
+10-23 11:03:08.207  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:03:08.254  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 11:03:08.849  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 464 lines
+10-23 11:03:26.490  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:03:26.536  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 11:03:26.663  3898  6157 I chatty  : uid=10162 com.ecoflow:pushcore expire 3 lines
+10-23 11:03:26.664  3898  7424 I chatty  : uid=10162(com.ecoflow) jg_nr_pool_thre expire 3 lines
+10-23 11:03:26.670  3898  7446 I chatty  : uid=10162 com.ecoflow:pushcore expire 3 lines
+10-23 11:03:27.731  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 483 lines
+10-23 11:03:44.027  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:03:44.071  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 1 line
+10-23 11:03:45.322  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 336 lines
+10-23 11:03:56.784  3898  6157 I chatty  : uid=10162 com.ecoflow:pushcore expire 1 line
+10-23 11:03:56.802  3898  7424 I chatty  : uid=10162(com.ecoflow) jg_nr_pool_thre expire 1 line
+10-23 11:03:58.633  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 98 lines
+10-23 11:04:01.570  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:04:01.577  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 11:04:02.046  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 492 lines
+10-23 11:04:19.842  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:04:19.849  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 11:04:20.408  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 481 lines
+10-23 11:04:36.619  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:04:36.626  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 11:04:38.494  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 478 lines
+10-23 11:04:54.168  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:04:54.175  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 1 line
+10-23 11:04:56.041  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 423 lines
+10-23 11:05:11.034  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:05:11.041  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 11:05:11.613  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 463 lines
+10-23 11:05:28.437  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:05:28.480  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 11:05:29.818  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 262 lines
+10-23 11:05:40.212  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 164 lines
+10-23 11:05:46.133  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:05:46.143  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 1 line
+10-23 11:05:46.596  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 381 lines
+10-23 11:06:00.547  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 107 lines
+10-23 11:06:02.953  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:06:02.960  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 11:06:04.210  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 442 lines
+10-23 11:06:21.163  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:06:21.205  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 11:06:21.599  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 480 lines
+10-23 11:06:38.010  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:06:38.017  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 11:06:39.838  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 429 lines
+10-23 11:06:56.201  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:06:56.244  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 11:06:57.473  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 487 lines
+10-23 11:07:13.759  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:07:13.769  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 1 line
+10-23 11:07:15.676  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 439 lines
+10-23 11:07:31.251  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:07:31.299  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 11:07:31.829  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 142 lines
+10-23 11:07:35.427  3898  3990 I chatty  : uid=10162(com.ecoflow) jg_tsk_thread expire 3 lines
+10-23 11:07:35.428  3898  7424 I chatty  : uid=10162(com.ecoflow) jg_nr_pool_thre expire 1 line
+10-23 11:07:35.434  3777  7524 I chatty  : uid=10162(com.ecoflow) expire 2 lines
+10-23 11:07:37.404  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 298 lines
+10-23 11:07:48.795  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:07:48.802  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 11:07:49.250  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 300 lines
+10-23 11:08:00.459  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 180 lines
+10-23 11:08:06.395  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:08:06.401  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 11:08:07.485  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 423 lines
+10-23 11:08:23.140  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:08:23.146  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 1 line
+10-23 11:08:24.296  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 429 lines
+10-23 11:08:39.298  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:08:39.304  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 11:08:40.527  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 427 lines
+10-23 11:08:55.397  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:08:55.403  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 1 line
+10-23 11:08:56.499  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 421 lines
+10-23 11:09:10.790  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:09:10.796  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 11:09:12.730  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 413 lines
+10-23 11:09:27.592  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:09:27.635  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 11:09:29.525  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 373 lines
+10-23 11:09:43.055  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:09:43.062  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 1 line
+10-23 11:09:43.531  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 433 lines
+10-23 11:09:59.100  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:09:59.144  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 2 lines
+10-23 11:10:00.259  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 418 lines
+10-23 11:10:15.255  3777  3794 I chatty  : uid=10162(com.ecoflow) HeapTaskDaemon expire 1 line
+10-23 11:10:15.261  3777  3796 I chatty  : uid=10162(com.ecoflow) FinalizerDaemon expire 1 line
+10-23 11:10:15.810  3777  3777 I chatty  : uid=10162(com.ecoflow) expire 136 lines
+10-23 11:10:21.351  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:21.353  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:21.371  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:21.374  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:21.416  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:21.418  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:21.981  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:21.986  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:22.052  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:22.055  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:22.072  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:22.075  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:22.104  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:22.106  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:22.117  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:22.119  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:22.715  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:22.733  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:22.776  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:22.778  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:22.780  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:22.794  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:22.820  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:22.830  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:23.409  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:23.432  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:23.464  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:23.475  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:23.478  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:23.479  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:23.507  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:23.510  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:23.538  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:23.551  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:24.089  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:24.110  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:24.154  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:24.158  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:24.168  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:24.171  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:24.199  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:24.201  3777  3777 I chatty  : uid=10162(com.ecoflow) identical 1 line
+10-23 11:10:24.202  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:24.213  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:24.215  3777  3777 I chatty  : uid=10162(com.ecoflow) identical 1 line
+10-23 11:10:24.216  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:24.786  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:24.806  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:24.851  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:24.871  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:24.904  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:24.906  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:24.918  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:24.920  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:25.512  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:25.516  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:25.576  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:25.579  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:25.581  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:25.595  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:25.598  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:25.626  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:26.269  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
+10-23 11:10:26.273  3777  3777 D BatteryBean: │ main, com.ecoflow.common.bean.BatteryBean.setOffline(BatteryBean.java:182)
+10-23 11:10:26.328  3777  3777 D DeviceInputFragment: │ main, com.ecoflow.iot.device.detail.input.DeviceInputFragment.updateTcp(DeviceInputFragment.java:178)
